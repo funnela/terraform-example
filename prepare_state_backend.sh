@@ -3,12 +3,16 @@
 set -e
 
 
+# START: configuration
+
 ACCOUNT="XXXXXXXX"
 AWS_ACCOUNT="XXXXXXXXX"
 RANDOM_SUFFIX="qzojghjc"
 
 AWS_REGION="eu-central-1"
 AWS_PROFILE="funnela-${ACCOUNT}"
+
+# END: configuration
 
 
 BUCKET_NAME="terraform-state-funnela-${ACCOUNT}-${RANDOM_SUFFIX}"
